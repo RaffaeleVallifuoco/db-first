@@ -1,0 +1,24 @@
+NOME COL.              TIPO                    ATTRIBUTI                    INDICI
+
+
+Id                     int                     AUOTOINCREMENT               Primary key
+Marca                  varchar(30)             not null
+Modello                varchar(50)             not null
+Colore                 varchar(500)            not null
+Tipo_Vernice           varchar(30)             null
+Interni                varchar(50)             null
+Anno_Ucita             year                    not null
+Immatricolazione       year                    not null
+Km_percorsi            int                     not null 
+Alimentazione          varchar(50)             not null
+Classe_emissioni       varchar(10)             not null
+Trazione               varchar(20)             not null
+Numero_Porte           int                     not null
+Carrozzeria            varchar(30)             not null
+Numero_Telaio          varchar(17)             not null
+Tipo_di_Cambio         varchar(30)             not null
+Motorizzazione         varchar(50)             not null
+Potenza(KW)            shortint                not null
+Revisione              tinyint                 not null
+Numero_proprietari     int                     not null
+Prezzo                 decimal(8,2)            not null
